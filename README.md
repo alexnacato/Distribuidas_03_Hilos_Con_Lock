@@ -23,8 +23,7 @@ docker compose up
 docker compose down
 ```
 
-> [!TIP]
-> Si tu versión de Docker es antigua, usa `docker-compose` (con guion) en lugar de `docker compose`.
+
 
 ## Descripción
 
@@ -42,18 +41,8 @@ diaria: tres personas (Ana, Luis y Carla) intentan comprar al mismo tiempo
 consultar y comprar. Ana compra la entrada, y Luis y Carla encuentran que ya
 no hay.
 
-## Salida esperada
 
-```text
-Ana consulta: hay 1 entrada(s)
-Ana compró una entrada.
-Luis consulta: hay 0 entrada(s)
-Luis no pudo comprar: entradas agotadas.
-Carla consulta: hay 0 entrada(s)
-Carla no pudo comprar: entradas agotadas.
 
-Entradas disponibles: 0
-```
 
 > [!IMPORTANT]
 > El orden de los nombres puede cambiar entre ejecuciones (por ejemplo, que
