@@ -1,0 +1,10 @@
+services:
+  python-app:
+    image: python:3.11-alpine
+    container_name: hilos-condicion-carrera
+    volumes:
+      - .:/app
+    working_dir: /app
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: python 03_hilos_lock.py
